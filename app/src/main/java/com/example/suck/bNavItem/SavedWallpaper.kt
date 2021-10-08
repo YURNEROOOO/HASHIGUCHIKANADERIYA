@@ -29,7 +29,7 @@ fun Walpy() {
             modifier = Modifier.fillMaxSize().padding(16.dp),
             cells = GridCells.Fixed(3)
         ) {
-            items(10){
+            items(17){
                 OneCard()
             }
         }
